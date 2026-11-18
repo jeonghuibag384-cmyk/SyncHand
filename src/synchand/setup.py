@@ -28,6 +28,7 @@ setup(
             'listener = synchand.angle_subscriber:main',
             'vision = synchand.vision_publisher:main',
             'vision_15dof = synchand.vision_publisher_15dof:main', # 👇 추가된 15자유도 노드!
+            'vision_world_15dof = synchand.vision_world_15dof:main',
         ],
     },
 )
